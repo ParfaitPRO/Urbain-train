@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NBA Jersey Purchase Form</title>
+    <style type="text/css">
+    body {
+      font-family: arial;
+      background-image:url(https://cdn.nba.com/manage/2022/11/ho22-nbacityedition-na-offbody-hero-master-02-re-2-784x505.jpg);
+      padding: 5px;
+      margin: 10px;
+
+    }
+
+    h1 {
+      text-align:left;
+      color: black;
+    }
+
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+      width: 300%;
+      padding: 25px;
+      margin-bottom: 24px;
+      border: 5px;  
+      border-radius: 10px;
+      box-sizing: border-box;
+    }
+
+    input[type="radio"] {
+      margin-right: 5px;
+    }
+
+    input[type="submit"] {
+      background-color: blue;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: progress;
+    }
+
+    input[type="submit"]:hover {
+      background-color: blue;
+    }
+
+    form {
+      background-color:cornflowerblue;
+      padding: 5px;
+      border-radius: 10px;
+      float: left;
+      width: 30%; 
+
+      
+
+    }
+
+    ul {
+      list-style-type: none;
+      overflow: hidden;
+       position: fixed;
+       top: 0;
+      float: right;
+      
+    }
+
+    li {
+      float: left;
+    }
+
+    a {
+      display: inline-block;
+      padding: 10px 20px;
+      text-decoration: inherit;
+      color: black;
+      background-color: lemonchiffon;
+
+    }
+
+    a:hover {
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="https://www.nba.com/" class="legend"target="_blank">Home</a></li>
+    <li><a href="https://www.nba.com/news/about" class="legend"target="_blank">About</a></li>
+    <li><a href="https://www.cosmossport.cy/en/9284-appearances" class="legend"target="_blank">Our Stock</a></li>
+    <li><a href="https://bleacherreport.com/articles/2883209-the-best-nba-players-by-jersey-number" class="legend"target="_blank">Top Picks</a></li>
+    <li><a href="https://contact.nba.com/contact-nba/" class="legend"target="_blank">Contact Us</a></li>
+    <li><a href="https://careers.nba.com/teams/" class="legend"target="_blank">Our Team</a></li>
+  </ul>
+<br>
+  <form>
+    <h1>NBA Jerseys Purchase</h1>
+    <table>
+         <tr>
+           <td><b>
+              First Name:<br>
+           
+              <input type="text" placeholder="first name" name="">
+            </td>
+          </tr>
+            <tr>
+               <td><b>
+               Last Name:<br>
+
+            
+              <input type="text" placeholder="last  name" name="">
+             </td>
+          </tr>
+          <tr>
+            <td><b>
+              Email:<br>
+
+             
+              <input type="text" placeholder="Input your Email" name="">
+             </td>
+          </tr>
+
+          <tr>
+            <td><b>
+              Phone Number:<br>
+
+             
+              <input type="tel" placeholder="*****" name="">
+             </td>
+          </tr>
+          <tr>
+                <td><b>
+                  Bank Name:<br>
+
+
+
+
+              <td>
+                  <select>
+                    <option>Select the name of your bank</option>
+                    <option>Equity Bank</option>
+                    <option>Bank of Kigali</option>
+                    <option>BPR</option>
+                    <option>I&M Bank</option>
+                  </select>
+              </tr>
+
+<tr>
+            <td><b>
+              Bank Account:<br>
+
+             
+              <input type="text" placeholder="00364" name="">
+             </td>
+          </tr>
+           <tr>
+         <td><b>
+           Gender:<br>
+
+        
+          
+              <input type="radio" name="Gender">Male
+              <input type="radio" name="Gender">Female
+              <input type="radio" name="Gender">Binary
+            </td>
+          </tr>
+<tr>
+            <td><b>
+              Team Jersey:<br>
+             
+              <input type="text" placeholder="write the name of the team" name="">
+             </td>
+          </tr>
+
+     
+          <tr>
+            <td><b>
+              Reason/ Description:<br>
+
+             
+              <textarea id="reason" placeholder="Description" name="what's your specifications"></textarea>
+
+             </td>
+          </tr>
+           <tr>
+           <td>
+             <input type="submit" value="Purchase" name="">
+            </td>
+          </tr>
+</table>
+
+  </form>
+</body>
+</html>
